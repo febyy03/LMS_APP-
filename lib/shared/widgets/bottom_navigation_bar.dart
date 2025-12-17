@@ -19,20 +19,12 @@ class CustomBottomNavigationBar extends StatelessWidget {
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.schedule),
-          label: 'Schedule',
-        ),
-        BottomNavigationBarItem(
           icon: Icon(Icons.class_),
-          label: 'Class',
+          label: 'Kelas Saya',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.notifications),
-          label: 'Notification',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.person),
-          label: 'Profile',
+          label: 'Notifikasi',
         ),
       ],
       currentIndex: selectedIndex,
